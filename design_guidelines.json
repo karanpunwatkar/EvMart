@@ -1,0 +1,116 @@
+{
+  "theme": "light",
+  "archetype": "1 (Organic & Earthy)",
+  "typography": {
+    "fonts": {
+      "heading": "Outfit",
+      "body": "IBM Plex Sans",
+      "mono": "JetBrains Mono"
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl font-semibold tracking-tighter leading-tight",
+      "h2": "text-3xl sm:text-4xl font-semibold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-medium tracking-tight",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed",
+      "label": "text-xs font-semibold uppercase tracking-[0.2em]"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#FAFAFA",
+      "secondary": "#F3F4F6",
+      "tertiary": "#E5E7EB"
+    },
+    "text": {
+      "primary": "#111827",
+      "secondary": "#4B5563",
+      "muted": "#9CA3AF"
+    },
+    "brand": {
+      "primary": "#166534",
+      "primary_hover": "#14532D",
+      "accent": "#22C55E",
+      "accent_hover": "#16A34A"
+    },
+    "status": {
+      "success": "#22C55E",
+      "error": "#EF4444",
+      "warning": "#F59E0B"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-20 md:py-32",
+    "grid_gaps": "gap-8 md:gap-12",
+    "border_radius": {
+      "small": "rounded-md",
+      "medium": "rounded-xl",
+      "large": "rounded-2xl",
+      "full": "rounded-full"
+    }
+  },
+  "surface_strategies": {
+    "product_cards": "bg-white border border-gray-200/60 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 rounded-2xl overflow-hidden",
+    "hero_overlay": "bg-black/30 backdrop-blur-sm",
+    "header": "bg-white/80 backdrop-blur-xl border-b border-gray-200/50 sticky top-0 z-50",
+    "badges": "bg-green-50 text-green-700 border border-green-200 px-2.5 py-0.5 rounded-full text-xs font-semibold"
+  },
+  "components": {
+    "button_primary": "bg-[#166534] text-white hover:bg-[#14532D] px-6 py-3 rounded-full font-medium transition-colors shadow-sm",
+    "button_secondary": "bg-white text-[#111827] border border-gray-300 hover:bg-gray-50 px-6 py-3 rounded-full font-medium transition-colors",
+    "input_field": "bg-white border border-gray-300 focus:border-[#166534] focus:ring-1 focus:ring-[#166534] rounded-xl px-4 py-3 w-full transition-all",
+    "footer": "bg-[#111827] text-gray-300 py-16"
+  },
+  "motion_and_interactions": {
+    "hover_state": "transition-transform duration-300 ease-out",
+    "page_transition": "animate-in fade-in slide-in-from-bottom-4 duration-500",
+    "list_stagger": "animate-in slide-in-from-bottom-4 duration-500 fade-in"
+  },
+  "media": {
+    "image_urls": [
+      {
+        "category": "hero",
+        "url": "https://images.unsplash.com/photo-1675273672378-1b8e4de84dca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBlbGVjdHJpYyUyMHNjb290ZXIlMjBpc29sYXRlZHxlbnwwfHx8fDE3NzY0MDM4NjF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern electric scooter parked, representing urban green mobility."
+      },
+      {
+        "category": "product_1",
+        "url": "https://images.unsplash.com/photo-1607091083645-31f4e28dc9af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwyfHxlbGVjdHJpYyUyMG1vdG9yY3ljbGV8ZW58MHx8fHwxNzc2NDAzODgxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "White and black modern electric scooter (Aero EV1)."
+      },
+      {
+        "category": "product_2",
+        "url": "https://images.unsplash.com/photo-1623079399942-368de709ea32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMG1vdG9yY3ljbGV8ZW58MHx8fHwxNzc2NDAzODgxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Black and red sporty electric scooter (Velocity X)."
+      },
+      {
+        "category": "product_3",
+        "url": "https://images.unsplash.com/photo-1623079400394-f07956928c3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwzfHxlbGVjdHJpYyUyMG1vdG9yY3ljbGV8ZW58MHx8fHwxNzc2NDAzODgxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Black and green rugged electric scooter (EcoRider Pro)."
+      },
+      {
+        "category": "product_4",
+        "url": "https://images.unsplash.com/photo-1696327461171-2b341c349c9c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxlbGVjdHJpYyUyMHNjb290ZXIlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzc2NDAzODc3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Minimalist black commuter electric scooter (City Glide)."
+      },
+      {
+        "category": "about_sustainability",
+        "url": "https://images.unsplash.com/photo-1648204785174-5ab0e60a3fdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMHNjb290ZXIlMjBncmVlbiUyMGVuZXJneXxlbnwwfHx8fDE3NzY0MDM4NjF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Eco-friendly environment with electric scooter."
+      }
+    ]
+  },
+  "instructions_to_main_agent": {
+    "project_context": "B.Com Computer Applications student project by Yash Mahatale, Sudanshu Zade, Mayur Kawale. Guide: Mrs. Bhagyashree Ambulkar at GH Raisoni College. Include these credits visibly in the footer.",
+    "key_pages_required": [
+      "Landing Page (Hero, Product Grid, Sustainability section)",
+      "Product Detail Page (Full specs, gallery, add to cart)",
+      "Shopping Cart & Checkout (Mock flow)",
+      "Login / Register",
+      "Admin Panel (Add/Edit/Delete products, view orders)"
+    ],
+    "design_notes": "Use Archetype 1 (Organic & Earthy). Make the UI look premium but simple enough for a student to explain. Use pure Tailwind for layout, Shadcn for interactive components (dropdowns, dialogs, forms). Use Lucide React for icons. Do not use generic fonts like Inter for headings; stick to Outfit.",
+    "testing_notes": "All interactive elements (buttons, inputs, cart items) must have data-testid attributes."
+  }
+}
